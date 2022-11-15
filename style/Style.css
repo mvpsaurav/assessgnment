@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+.nav{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    /* background-color: black; */
+    margin-top: 10px;
+    height: 6vh;
+    font-size: larger;
+}
+
+.nav .middle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav .middle .middle1 {
+padding-right: 10px;
+}
+
+.nav .middle .middle2 {
+padding-right: 10px;
+}
+
+.nav .middle .middle3 {
+padding-right: 10px;
+}
+
+.nav .middle .middle4 {
+padding-right: 10px;
+}
+
+.nav .right{
+    display: flex;
+    /* justify-content: ; */
+}
+
+.nav .right .login{
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.nav .right .join{
+    padding-right: 10px;
+    background-color: rgb(19, 215, 215);
+    padding: 2px 0 0 2px;
+    border-radius: 10px;  
+    cursor: pointer;
+}
+
+
+
+
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+.container .left{
+    padding: 50px;
+    font-size: 30px;
+    width: 50vw;
+    height: 80vh;
+}
+.container .left button{
+    height: 30px;
+    border-radius: 7px;
+    padding: 3px 8px;
+    background-color: blue;
+}
+
+.container .right{
+    height: 80vh;
+    width: 50vw;
+}
+.container .right img{
+    height: 80vh;
+    width: 50vw;
+}
+
+.container2 {
+height: 40vh;
+display: flex;
+justify-content: space-around;
+/* background-color: red; */
+}
+
+.container2 .books{
+    width: 15vw;
+    background-color: #dcc5c51a;
+}
+
+.container2 .market{
+    width: 15vw;
+    background-color: #dcc5c51a;
+}
+
+.container2 .onlinecource{
+    width: 15vw;
+    background-color: #dcc5c51a;
+   
+}
+
+.container3 {
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container3 .woc{
+    width: 35vw;
+}
+
+.container3 .c3img{
+    width: 35vw;
+}
+
+.container3 .c3img img{
+    height: 50vh;
+}
+
+.featuredproducts{
+    height: 100vh;
+    background-color:antiquewhite;
+}
+.featuredproducts .featuredproducts1{
+    padding:  35px 0 0 95px;
+}
+
+.featuredproducts .featuredproducts2{
+    display: flex;
+    justify-content: space-around;
+    width: 65vw;
+    margin: auto;
+}
+
+.featuredproducts .featuredproducts2 .fp1{
+    height: 60vh;
+    width: 20vw;
+}
+.featuredproducts .featuredproducts2 .fp1 img{
+    height: 60vh;
+}
+
+.featuredproducts .featuredproducts2 .fp2{
+    height: 60vh;
+    width: 20vw;
+}
+.featuredproducts .featuredproducts2 .fp2 img{
+    height: 60vh;
+}
+.featuredproducts .featuredproducts2 .fp3{
+    height: 60vh;
+    width: 20vw;
+}
+.featuredproducts .featuredproducts2 .fp3 img{
+    height: 60vh;
+}
+
+.practiceadvice{
+    text-align: center;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30vh;
+}
+.practiceadvice input {
+    height: 7vh;
+    width: 30vw;
+    border-radius: 3px;
+}
+.practiceadvice button{
+    background-color: blue;
+    height: 7vh;
+    width: 8vw;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+footer{
+    height: 45vh;
+
+}
+
+footer .footer1{
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 10vw; */
+}
+
+footer .footer1 .footer1git{
+    width: 22vh;
+}
+footer .footer1 .footer1git .socal{
+    display: flex;
+}
+footer .footer1 .footer1git .socal img{
+    height: 40px;
+}
+footer .footer1 .footer1ci{
+    width: 22vh;
+}
+footer .footer1 .footer1features{
+    width: 22vh;
+}
+footer .footer1 .footer1resource{
+    width: 22vh;
+}
+
+
+
+
+
+footer .footer2{
+    height: 5vh;
+    padding-top: 5px;
+    background-color:aliceblue
+}
+
+#footerpara{
+    text-align: center;
+    color: rgb(101, 94, 94);
+}
